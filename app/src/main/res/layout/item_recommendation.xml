@@ -1,0 +1,38 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:background="@drawable/border_ungu"
+    android:layout_margin="8dp">
+
+    <!-- Image for Product -->
+    <ImageView
+        android:id="@+id/ivProductImage"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:contentDescription="Product Image"
+        android:scaleType="centerInside"
+        android:src="@drawable/lightstick" />
+
+    <!-- Product Title -->
+    <TextView
+        android:id="@+id/tvProductTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="New Release - Lightstick"
+        android:textSize="14sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="8dp" />
+
+    <!-- Product Price -->
+    <TextView
+        android:id="@+id/tvProductPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rp500.000"
+        android:textSize="12sp"
+        android:textColor="@color/purple_500"
+        android:layout_marginTop="4dp" />
+</LinearLayout>

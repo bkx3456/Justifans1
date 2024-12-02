@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/home"
+        android:title="Beranda"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/nav_community"
+        android:icon="@drawable/community"
+        android:title="Komunitas"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/nav_orders"
+        android:icon="@drawable/profile"
+        android:title="Pesanan saya"
+        app:showAsAction="ifRoom" />
+</menu>

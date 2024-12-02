@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1040333147919",
+    "project_id": "capstone-442413",
+    "storage_bucket": "capstone-442413.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1040333147919:android:f45904522cb37d0febb87a",
+        "android_client_info": {
+          "package_name": "com.example.justifans"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1f7EfCEpKpkWN7vfzmmuglJxVXPJOJB8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
